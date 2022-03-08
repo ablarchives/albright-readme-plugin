@@ -28,6 +28,11 @@ class About extends Controller
 
         $this->pageTitle = 'About & Docs';
 
-        $this->vars['index'] = file_get_contents(__DIR__ . '/../config/index.htm');
+        if($index = file_get_contents(__DIR__ . '/../config/index.htm')){
+            $this->vars['index'] = $index;
+        }
+        else{
+            $this->vars['index'] = '';
+        }
     }
 }

@@ -1,8 +1,9 @@
 {
     "name": "albrightlabs/readme-plugin",
     "type": "october-plugin",
-    "description": "No description provided yet...",
+    "description": "A plugin that allows for readme and docs to easily be added to any application.",
     "require": {
-        "composer/installers": "~1.0"
+        "composer/installers": "~1.0",
+        "october/system": "^2.1"
     }
 }

@@ -25,6 +25,9 @@ class About extends Controller
      */
     public function index()
     {
+
+        $this->pageTitle = 'About & Docs';
+
         $this->vars['index'] = file_get_contents(__DIR__ . '/../config/index.htm');
     }
 }

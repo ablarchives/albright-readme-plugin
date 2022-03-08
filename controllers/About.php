@@ -1,4 +1,4 @@
-<?php namespace AlbrightLabs\ReadMe\Controllers;
+<?php namespace Albrightlabs\ReadMe\Controllers;
 
 use Config;
 use BackendMenu;
@@ -17,7 +17,7 @@ class About extends Controller
         parent::__construct();
 
         BackendMenu::setContext('October.System', 'system', 'settings');
-        SettingsManager::setContext('AlbrightLabs.ReadMe', 'readme');
+        SettingsManager::setContext('Albrightlabs.ReadMe', 'readme');
     }
 
     /**

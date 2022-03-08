@@ -1,4 +1,4 @@
-<?php namespace AlbrightLabs\ReadMe;
+<?php namespace Albrightlabs\ReadMe;
 
 use Backend;
 use System\Classes\PluginBase;
